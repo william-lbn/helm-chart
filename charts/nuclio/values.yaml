@@ -150,7 +150,7 @@ dashboard:
   templatesArchiveAddress: ""
 
   ingress:
-    enabled: false
+    enabled: true
     annotations: {}
       # kubernetes.io/ingress.class: nginx
       # kubernetes.io/tls-acme: "true"
@@ -185,7 +185,7 @@ dashboard:
       cacheExpirationTimeout: 60s
 
   opa:
-    enabled: false
+    enabled: true
     name: opa-server
     fullnameOverride:
 
@@ -250,7 +250,7 @@ dashboard:
   pipCACertSecretName: ""
 
 autoscaler:
-  enabled: false
+  enabled: true
   replicas: 1
   image:
     repository: quay.io/nuclio/autoscaler
@@ -284,7 +284,7 @@ autoscaler:
   priorityClassName: ""
 
 dlx:
-  enabled: false
+  enabled: true
   replicas: 1
   image:
     repository: quay.io/nuclio/dlx
