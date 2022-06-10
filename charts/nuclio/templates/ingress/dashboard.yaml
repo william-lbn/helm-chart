@@ -51,7 +51,7 @@ spec:
               service:
                 name: {{ $fullName }}
                 port:
-                  number: admin
+                  number: 30734
   {{- end }}
 {{- end }}
 {{- end }}
