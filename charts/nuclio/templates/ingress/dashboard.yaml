@@ -48,8 +48,10 @@ spec:
         paths:
           - path: {{ $ingressPath }}
             backend:
-              serviceName: {{ $fullName }}
-              servicePort: admin
+              service:
+                name: {{ $fullName }}
+                port:
+                  number: admin
   {{- end }}
 {{- end }}
 {{- end }}
