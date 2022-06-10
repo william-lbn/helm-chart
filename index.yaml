@@ -14,6 +14,26 @@ entries:
   nuclio:
   - apiVersion: v1
     appVersion: 1.8.15
+    created: "2022-06-10T09:44:33.01716204Z"
+    description: Serverless for Real-Time and Data-Driven Applications
+    digest: 3afcd8e1a930535c51e06207e0f94a709e84e9bc653e04443e4b947bc085727f
+    home: https://nuclio.io
+    icon: https://github.com/nuclio/nuclio/raw/master/docs/assets/images/logo.png
+    maintainers:
+    - email: erand@iguazio.com
+      name: Eran Duchan
+    - email: odedm@iguazio.com
+      name: Oded Messer
+    - email: liranb@iguazio.com
+      name: Liran Ben Gida
+    name: nuclio
+    sources:
+    - https://github.com/nuclio/nuclio
+    urls:
+    - https://github.com/william-lbn/helm-chart/releases/download/nuclio-9.12.15/nuclio-9.12.15.tgz
+    version: 9.12.15
+  - apiVersion: v1
+    appVersion: 1.8.15
     created: "2022-06-10T09:36:23.23950421Z"
     description: Serverless for Real-Time and Data-Driven Applications
     digest: 0ffc8b63e347bc72728a445e2cb918b39f28b2c8eb6cd8ee8ff880335d847438
