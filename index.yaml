@@ -11,4 +11,25 @@ entries:
     urls:
     - https://github.com/william-lbn/helm-chart/releases/download/my-app-0.1.0/my-app-0.1.0.tgz
     version: 0.1.0
+  nuclio:
+  - apiVersion: v1
+    appVersion: 1.8.15
+    created: "2022-06-10T09:36:23.23950421Z"
+    description: Serverless for Real-Time and Data-Driven Applications
+    digest: 0ffc8b63e347bc72728a445e2cb918b39f28b2c8eb6cd8ee8ff880335d847438
+    home: https://nuclio.io
+    icon: https://github.com/nuclio/nuclio/raw/master/docs/assets/images/logo.png
+    maintainers:
+    - email: erand@iguazio.com
+      name: Eran Duchan
+    - email: odedm@iguazio.com
+      name: Oded Messer
+    - email: liranb@iguazio.com
+      name: Liran Ben Gida
+    name: nuclio
+    sources:
+    - https://github.com/nuclio/nuclio
+    urls:
+    - https://github.com/william-lbn/helm-chart/releases/download/nuclio-0.12.15/nuclio-0.12.15.tgz
+    version: 0.12.15
 generated: "2022-06-10T09:33:35.058671397Z"
